@@ -5,6 +5,9 @@
 The Unreal Master Material for Props is a standard material for creating 3D props in Unreal Engine 5. It includes various customizable features for creating a wide range of variations.
 It has been Created Using Two Material Functions.
 
+![Screenshot of Props used With this Material](ScreenShot_Only/image04.png)
+  
+
 
 1. MF_Standard_MRAO this function has an MRAO mask map separated and all Metallic, Roughness, and AO can be added in value numeric way and could be controlled with a numeric value. Roughness will be managed with Roughnessmin and max. This Function has also Normal with a normal detail map and both values can be adjusted. Base Color with Basecolortintmask and a custom color in both tint and color.
 2. MF_MasterParams In this function parameters and TextureParameter it set up in material attributes.
@@ -13,6 +16,8 @@ It has been Created Using Two Material Functions.
 <h3>Material Structure in Instance :</h3>
 
 The material instance includes several groups:
+
+![Screenshot of Props used With this Material](ScreenShot_Only/image06.png)
 
 Group 0: BaseColor
 This group includes nodes for adjusting the base color, color tint, tint mask, and color tint mask. UseTintMask is a Boolean node that determines whether the tint mask is applied. UseBaseColorMap is another Boolean node that determines whether a BaseColor map is used to add texture or pattern to the base color.
